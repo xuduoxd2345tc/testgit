@@ -7,7 +7,8 @@ namespace hitcrt {
     maxIterations = _maxIterations;
     verbose = false;
   }
-  CircleFit::~CircleFit() {}
+  CircleFit::~CircleFit() {
+}
 
   void CircleFit::get_center(std::vector<cv::Point2f>& data,cv::Point2d inital, cv::Point2d &center) {
     typedef g2o::BlockSolver<g2o::BlockSolverTraits<Eigen::Dynamic, Eigen::Dynamic> >  MyBlockSolver;
