@@ -8,6 +8,8 @@ namespace hitcrt {
     verbose = false;
   }
   CircleFit::~CircleFit() {
+
+
 }
 
   void CircleFit::get_center(std::vector<cv::Point2f>& data,cv::Point2d inital, cv::Point2d &center) {
